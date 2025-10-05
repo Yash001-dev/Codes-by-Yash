@@ -1,0 +1,22 @@
+a = input('enter your name: ')
+print('hello', a, 'welcome to calculator')
+while True:
+    x = input('chooser 1st number: ')
+    y = input('chooser 2nd number: ')
+    z = input('chooser opration: {+, -, *, /}:')
+    if z == '+':
+        print(float(x) + float(y))
+    elif z == '/':
+        print(float(x) / float(y))
+    elif z == '-':
+        print(float(x) - float(y))
+    elif z == '*':
+        print(float(x) * float(y))
+    else:
+        print('invalid operation')
+    choice = input('Do you want to calculate again? (yes/no): ')
+    if choice.lower() != 'yes':
+        if choice.lower() == 'no':
+            print('Thank you for using the calculator. Goodbye!')
+            print('**Coded by Yash Badodiya**')
+            break
