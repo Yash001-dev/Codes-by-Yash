@@ -1,0 +1,47 @@
+a = int(input("Choose a Number: "))
+print("Multiply your number with 2")
+b = input("Done?(y/n): ")
+
+if b == "y":
+    print("Add 8 to the result")
+    c = input("Done?(y/n): ")
+
+    if c == "y":
+        print("Divide the result by 2")
+        d = input("Done?(y/n): ")
+
+        if d == "y":
+            print("Now subtract your original number:", a)
+            e = input("Done?(y/n): ")
+
+            if e == "y":
+                print("The remainder is 4")
+                print( )
+                print("aaa      aaa")
+                print("aaa      aaa")
+                print("aaa      aaa")
+                print("aaa      aaa")
+                print("aaaaaaaaaaaa")
+                print("         aaa")
+                print("         aaa")
+                print("         aaa")
+                print("         aaa")
+            elif e == "n":
+                print("Ker na to:")
+            else:
+                print("Wrong input choose btw (y,n)")
+
+        elif d == "n":
+            print("Ker na to:")
+        else:
+            print("Wrong input choose btw (y,n)")
+
+    elif c == "n":
+        print("Ker na to:")
+    else:
+        print("Wrong input choose btw (y,n)")
+
+elif b == "n":
+    print("Ker na to:")
+else:
+    print("Wrong input choose btw (y,n)")
